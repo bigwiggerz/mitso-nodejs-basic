@@ -2,8 +2,8 @@ import fs from "fs/promises"
 import path from "path";
 import * as url from "url";
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
-const filePath = path.join(__dirname, "files", "files.txt");
-const CONTENT = "TEST";
+const filePath = path.join(__dirname, "files", "fresh.txt");
+const CONTENT = "I am fresh and young";
 const create = async () => {
 
     try{
