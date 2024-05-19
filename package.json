@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/KalinkinFiz/mitso-nodejs-basic/issues"
   },
-  "homepage": "https://github.com/KalinkinFiz/mitso-nodejs-basic#readme"
+  "homepage": "https://github.com/KalinkinFiz/mitso-nodejs-basic#readme",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
 }
